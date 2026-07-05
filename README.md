@@ -103,6 +103,14 @@ Passionate about building modern web applications with React, TypeScript & Fireb
 
 </p>
 
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+Copyright © 2026 **Dev Asik**
+
+You are free to use, modify, and distribute this project under the terms of the MIT License.
 ---
 
 <h3 align="center">
