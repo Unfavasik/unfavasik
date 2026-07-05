@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/unfavasik/unfavasik/main/banner.png" alt="Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/unfavasik/unfavasik/main/file_0000000001cc720b92c88089784ff460.png" alt="Asik Ikbal Banner" width="100%">
 </p>
 <h1 align="center">Hi 👋, I'm Asik Ikbal</h1>
 
