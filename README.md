@@ -15,6 +15,6 @@ Passionate about building modern web applications with React, TypeScript and Fir
 - 🌱 Learning **React, TypeScript & Firebase**
 - 💻 Building clean and modern web apps
 - 🚀 Open Source Enthusiast
-- 📫 Reach me: your-email@example.com
+- 📫 Reach me: asik.devhub@gmail.com
 
 > **"Building ideas into reality through code."**
