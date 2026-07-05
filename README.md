@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/unfavasik/unfavasik/main/banner.png" alt="Banner" width="100%">
+</p>
 <h1 align="center">Hi 👋, I'm Asik Ikbal</h1>
 
 <h3 align="center">💻 Frontend Developer from India 🇮🇳</h3>
