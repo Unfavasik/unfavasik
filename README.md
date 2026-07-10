@@ -1,132 +1,120 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=Asik%20Ikbal&fontSize=48&fontColor=7dd3fc&animation=twinkling&fontAlignY=38&desc=Frontend%20Developer%20%7C%20React%20%C2%B7%20TypeScript%20%C2%B7%20Firebase&descAlignY=58&descSize=18"/>
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/unfavasik/unfavasik/main/file_0000000001cc720b92c88089784ff460.png" alt="Asik Ikbal Banner" width="100%">
+</p>
+<h1 align="center">Hi 👋, I'm Asik Ikbal</h1>
 
 <h3 align="center">💻 Frontend Developer from India 🇮🇳</h3>
 
 <p align="center">
-Passionate about building modern, clean web applications with React, TypeScript & Firebase.
+Passionate about building modern web applications with React, TypeScript & Firebase.
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3500&pause=1000&color=7DD3FC&center=true&vCenter=true&width=650&lines=Frontend+Developer+from+India+%F0%9F%87%AE%F0%9F%87%B3;React+%7C+TypeScript+%7C+Firebase;Building+clean%2C+modern+web+apps;Open+Source+Enthusiast+%F0%9F%9A%80"/>
-</p>
-
-<p align="center">
-  <a href="https://x.com/unfav_asik"><img src="https://skillicons.dev/icons?i=twitter"/></a>
-  <a href="https://github.com/unfavasik"><img src="https://skillicons.dev/icons?i=github"/></a>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&duration=4000&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=Frontend+Developer;React+%7C+TypeScript+%7C+Firebase;Open+Source+Enthusiast;Always+Learning+New+Things+🚀" />
 </p>
 
 ---
 
-### 🧾 Who I Am
-
-```js
-const asik = {
-  name: "Asik Ikbal",
-  title: "Frontend Developer",
-  location: "Murshidabad, West Bengal, India 🇮🇳",
-  stack: ["React", "TypeScript", "Firebase", "Supabase", "Tailwind CSS", "Vite"],
-  currentlyLearning: "Full Stack Development",
-  status: "Open Source Enthusiast",
-  funFact: "Always learning something new 🚀",
-};
-```
+## 🚀 About Me
 
 - 🌍 From Murshidabad, West Bengal, India
+- 💻 Frontend Developer
 - ⚛️ React Developer
 - 🔥 TypeScript Enthusiast
 - ⚡ Firebase Developer
-- 🌱 Currently learning Full Stack Development
+- 🌱 Currently Learning Full Stack Development
 - 🎯 Open Source Enthusiast
 
 ---
 
-### 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-**Frontend**
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,tailwind,js,ts,react,vite" />
-</p>
+<p align="center">
 
-**Backend & Database**
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=firebase,supabase" />
-</p>
+<img src="https://skillicons.dev/icons?i=html,css,tailwind,js,ts,react,vite,firebase,supabase,git,github,vscode,figma,npm" />
 
-**Dev Tools**
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,npm" />
 </p>
 
 ---
 
-### 📊 GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=unfavasik&show_icons=true&theme=nord&hide_border=true&title_color=7dd3fc&icon_color=7dd3fc&text_color=c9d1d9"/>
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=unfavasik&layout=compact&theme=nord&hide_border=true&title_color=7dd3fc&text_color=c9d1d9"/>
-</p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=unfavasik&theme=nord&hide_border=true&ring=7dd3fc&fire=7dd3fc&currStreakLabel=7dd3fc"/>
-</p>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true"/>
 
----
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true"/>
 
-### 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=unfavasik&theme=nord&no-frame=true&no-bg=true&row=1&column=6"/>
 </p>
 
 ---
 
-### 📈 Contribution Activity
+## 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=unfavasik&theme=react-dark&hide_border=true&color=7dd3fc&line=7dd3fc&point=ffffff"/>
+
+<img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true"/>
+
 </p>
 
 ---
 
-### 🐍 Contribution Snake
+## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/unfavasik/unfavasik/output/github-contribution-grid-snake-dark.svg"/>
-</p>
 
-> 💡 This snake animation needs a one-time GitHub Actions workflow set up in your `unfavasik/unfavasik` repo to generate the `output` branch. Skip this section if you haven't set that up yet.
+<img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=tokyonight&no-frame=true&row=1&column=6"/>
 
----
-
-### 👀 Profile Views
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=unfavasik&label=Profile%20Views&color=7dd3fc&style=flat"/>
 </p>
 
 ---
 
-### 📫 Connect With Me
+## 🐍 Contribution Snake
 
 <p align="center">
-  <a href="https://x.com/unfav_asik"><img src="https://skillicons.dev/icons?i=twitter"/></a>
-  <a href="https://github.com/unfavasik"><img src="https://skillicons.dev/icons?i=github"/></a>
+
+<img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg"/>
+
 </p>
 
 ---
 
-### 📄 License
+## 👀 Visitor Counter
 
-This project is licensed under the MIT License.
+<p align="center">
 
-Copyright © 2026 Dev Asik
+<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=0e75b6&style=flat"/>
+
+</p>
+
+---
+
+## 📫 Connect With Me
+
+<p align="center">
+
+<a href="https://x.com/unfav_asik">
+<img src="https://skillicons.dev/icons?i=twitter"/>
+</a>
+
+<a href="https://github.com/YOUR_GITHUB_USERNAME">
+<img src="https://skillicons.dev/icons?i=github"/>
+</a>
+
+</p>
+
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+Copyright © 2026 **Dev Asik**
 
 You are free to use, modify, and distribute this project under the terms of the MIT License.
+---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer"/>
-</div>
+<h3 align="center">
 
-<h3 align="center">⭐ Thanks for visiting my profile ⭐</h3>
+⭐ Thanks for visiting my profile ⭐
+
+</h3>
