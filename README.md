@@ -39,6 +39,19 @@ const unfavasik = {
 
 ## 🚀 Featured Projects
 
+### 🌐 Dev Asik
+Personal developer portfolio showcasing my work and skills.
+
+🔒 **Private Repository** &nbsp;|&nbsp; 🔗 **[Live Site](https://dev-asik.vercel.app/)**
+
+| Layer | Technology |
+|---|---|
+| Frontend | React, TypeScript, Tailwind CSS |
+| Build Tool | Vite |
+| Hosting | Vercel |
+
+---
+
 ### 🪙 CryptoGramX
 Crypto-based SocialFi platform.
 
