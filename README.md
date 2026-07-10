@@ -1,120 +1,156 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/unfavasik/unfavasik/main/file_0000000001cc720b92c88089784ff460.png" alt="Asik Ikbal Banner" width="100%">
-</p>
-<h1 align="center">Hi 👋, I'm Asik Ikbal</h1>
+<div align="center">
 
-<h3 align="center">💻 Frontend Developer from India 🇮🇳</h3>
+![Header](https://capsule-render.vercel.app/api?type=waving&color=7dd3fc&height=200&section=header&text=Hi%20There,%20I'm%20Unfavasik&fontSize=38&fontColor=ffffff&animation=twinkling)
 
-<p align="center">
-Passionate about building modern web applications with React, TypeScript & Firebase.
-</p>
+<a href="https://github.com/Unfavasik">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=7DD3FC&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Building+with+React+%2B+TypeScript;Shipping+AI-powered+Apps;Open+to+Work+%F0%9F%9A%80" alt="Typing SVG" />
+</a>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&duration=4000&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=Frontend+Developer;React+%7C+TypeScript+%7C+Firebase;Open+Source+Enthusiast;Always+Learning+New+Things+🚀" />
-</p>
+![Open to Work](https://img.shields.io/badge/OPEN%20TO%20WORK-7dd3fc?style=for-the-badge&logoColor=white)
+
+![Profile Views](https://komarev.com/ghpvc/?username=Unfavasik&color=7dd3fc&style=flat-square&label=Profile+Views)
+![Followers](https://img.shields.io/github/followers/Unfavasik?label=Followers&style=flat-square&color=7dd3fc)
+
+</div>
 
 ---
 
-## 🚀 About Me
+## 👤 Who I Am
 
-- 🌍 From Murshidabad, West Bengal, India
-- 💻 Frontend Developer
-- ⚛️ React Developer
-- 🔥 TypeScript Enthusiast
-- ⚡ Firebase Developer
-- 🌱 Currently Learning Full Stack Development
-- 🎯 Open Source Enthusiast
+```typescript
+const unfavasik = {
+  title: "Full Stack Developer",
+  stack: [
+    "HTML", "CSS", "JavaScript", "TypeScript",
+    "React", "Vite", "Tailwind CSS",
+    "Node.js",
+    "Firebase", "Supabase",
+    "Netlify", "Vercel",
+    "OpenAI API", "Grok API"
+  ],
+  launchedProjects: [], // no public deployments yet — 3 projects in active development
+  certifications: [],
+  status: "🚧 Building CryptoGramX, Problem App & SMM Pro (private repos)",
+  openTo: ["Full-time roles", "Freelance work", "Collaborations"]
+};
+```
+
+---
+
+## 🚀 Featured Projects
+
+### 🪙 CryptoGramX
+Crypto-based SocialFi platform.
+
+🔒 **Private Repository** &nbsp;|&nbsp; 🚧 **Coming Soon**
+
+| Layer | Technology |
+|---|---|
+| Frontend | React, TypeScript, Tailwind CSS |
+| Backend | Node.js |
+| Database | Firebase / Supabase |
+| AI | OpenAI API |
+| Hosting | Netlify / Vercel |
+
+---
+
+### 🧩 Problem App
+AI-powered community problem solving platform.
+
+🔒 **Private Repository** &nbsp;|&nbsp; 🚧 **Coming Soon**
+
+| Layer | Technology |
+|---|---|
+| Frontend | React, TypeScript, Tailwind CSS |
+| Backend | Node.js |
+| Database | Firebase / Supabase |
+| AI | OpenAI API, Grok API |
+| Hosting | Netlify / Vercel |
+
+---
+
+### 📈 SMM Pro
+Social Media Marketing panel.
+
+🔒 **Private Repository** &nbsp;|&nbsp; 🚧 **Coming Soon**
+
+| Layer | Technology |
+|---|---|
+| Frontend | React, TypeScript, Tailwind CSS |
+| Backend | Node.js |
+| Database | Firebase / Supabase |
+| Hosting | Netlify / Vercel |
 
 ---
 
 ## 🛠️ Tech Stack
 
-<p align="center">
+**Languages**
 
-<img src="https://skillicons.dev/icons?i=html,css,tailwind,js,ts,react,vite,firebase,supabase,git,github,vscode,figma,npm" />
+![Skills](https://skillicons.dev/icons?i=html,css,js,ts)
 
-</p>
+**Frontend**
+
+![Skills](https://skillicons.dev/icons?i=react,vite,tailwind)
+
+**Backend / Infra**
+
+![Skills](https://skillicons.dev/icons?i=nodejs)
+
+**Cloud**
+
+![Skills](https://skillicons.dev/icons?i=firebase,supabase,netlify,vercel)
+
+**AI**
+
+![Skills](https://skillicons.dev/icons?i=openai)
+<sub>+ Grok API</sub>
+
+**Dev Tools**
+
+![Skills](https://skillicons.dev/icons?i=github)
 
 ---
 
 ## 📊 GitHub Stats
 
-<p align="center">
+<div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Unfavasik&show_icons=true&theme=nord&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc&text_color=ffffff" alt="GitHub Stats" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Unfavasik&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=ffffff" alt="Top Languages" height="165"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true"/>
+<img src="https://streak-stats.demolab.com/?user=Unfavasik&theme=nord&border=7dd3fc&ring=7dd3fc&fire=7dd3fc" alt="GitHub Streak" />
 
-</p>
+</div>
 
----
+### 🏆 Trophies
 
-## 🔥 GitHub Streak
+<div align="center">
 
-<p align="center">
+![Trophies](https://github-profile-trophy.vercel.app/?username=Unfavasik&theme=nord&no-frame=true&no-bg=true&row=1&column=6)
 
-<img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true"/>
+</div>
 
-</p>
+### 📈 Contribution Graph
 
----
+<div align="center">
 
-## 🏆 GitHub Trophies
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Unfavasik&theme=react-dark&hide_border=true&color=7dd3fc&line=7dd3fc&point=ffffff)
 
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=tokyonight&no-frame=true&row=1&column=6"/>
-
-</p>
+</div>
 
 ---
 
-## 🐍 Contribution Snake
+## 🔗 Connect With Me
 
-<p align="center">
+<div align="center">
 
-<img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg"/>
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/unfav_asik)
+[![Portfolio](https://img.shields.io/badge/Portfolio-7dd3fc?style=for-the-badge&logo=vercel&logoColor=white)](https://dev-asik.vercel.app)
+[![Email](https://img.shields.io/badge/Email-7dd3fc?style=for-the-badge&logo=gmail&logoColor=white)](mailto:asik.devhub@gmail.com)
 
-</p>
-
----
-
-## 👀 Visitor Counter
-
-<p align="center">
-
-<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=0e75b6&style=flat"/>
-
-</p>
+</div>
 
 ---
 
-## 📫 Connect With Me
-
-<p align="center">
-
-<a href="https://x.com/unfav_asik">
-<img src="https://skillicons.dev/icons?i=twitter"/>
-</a>
-
-<a href="https://github.com/YOUR_GITHUB_USERNAME">
-<img src="https://skillicons.dev/icons?i=github"/>
-</a>
-
-</p>
-
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
-Copyright © 2026 **Dev Asik**
-
-You are free to use, modify, and distribute this project under the terms of the MIT License.
----
-
-<h3 align="center">
-
-⭐ Thanks for visiting my profile ⭐
-
-</h3>
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=7dd3fc&height=120&section=footer&animation=twinkling)
