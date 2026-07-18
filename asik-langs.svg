@@ -1,0 +1,61 @@
+<svg width="880" height="300" viewBox="0 0 880 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .lg-mono { font-family:'SF Mono','Fira Code','Consolas',monospace; }
+    .lg-disp { font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif; font-weight:800; }
+    .lg-dim { fill:#7A7A85; }
+    @keyframes lg-grow { 0% { transform: scaleX(0);} 100% { transform: scaleX(1);} }
+    .lg-track { transform-box: fill-box; transform-origin: left; animation: lg-grow 1.4s cubic-bezier(.2,.9,.25,1) both; }
+    @keyframes lg-fade { 0% {opacity:0;} 100% {opacity:1;} }
+    .lg-row { animation: lg-fade .6s ease both; }
+  </style>
+  <defs>
+    <linearGradient id="lgt-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00D9FF"/><stop offset="1" stop-color="#C026FF"/>
+    </linearGradient>
+    <linearGradient id="lgt-ts" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3178C6"/><stop offset="1" stop-color="#5AA9E6"/></linearGradient>
+    <linearGradient id="lgt-js" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#E8C547"/><stop offset="1" stop-color="#F5DE7A"/></linearGradient>
+    <linearGradient id="lgt-react" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00D9FF"/><stop offset="1" stop-color="#61DAFB"/></linearGradient>
+    <linearGradient id="lgt-next" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C026FF"/><stop offset="1" stop-color="#8B8B93"/></linearGradient>
+    <linearGradient id="lgt-fb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFA000"/><stop offset="1" stop-color="#FFCA5F"/></linearGradient>
+    <linearGradient id="lgt-tw" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#00D9FF"/></linearGradient>
+  </defs>
+
+  <rect width="880" height="300" rx="20" fill="#050505"/>
+  <rect x="1" y="1" width="878" height="298" rx="19" fill="none" stroke="rgba(255,255,255,0.08)"/>
+
+  <text x="30" y="42" class="lg-disp" font-size="18" fill="url(#lgt-grad)">Top Languages &amp; Tools</text>
+  <text x="30" y="62" class="lg-mono lg-dim" font-size="11">most used across repositories</text>
+
+  <g class="lg-mono" font-size="12.5">
+    <g class="lg-row" style="animation-delay:.05s;">
+      <text x="30" y="98" fill="#EDEDF2">TypeScript</text><text x="810" y="98" text-anchor="end" fill="#7A7A85">32%</text>
+      <rect x="30" y="106" width="750" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
+      <rect class="lg-track" x="30" y="106" width="240" height="8" rx="4" fill="url(#lgt-ts)" style="animation-delay:.15s;"/>
+    </g>
+    <g class="lg-row" style="animation-delay:.15s;">
+      <text x="30" y="134" fill="#EDEDF2">JavaScript</text><text x="810" y="134" text-anchor="end" fill="#7A7A85">22%</text>
+      <rect x="30" y="142" width="750" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
+      <rect class="lg-track" x="30" y="142" width="165" height="8" rx="4" fill="url(#lgt-js)" style="animation-delay:.28s;"/>
+    </g>
+    <g class="lg-row" style="animation-delay:.25s;">
+      <text x="30" y="170" fill="#EDEDF2">React / Next.js</text><text x="810" y="170" text-anchor="end" fill="#7A7A85">20%</text>
+      <rect x="30" y="178" width="750" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
+      <rect class="lg-track" x="30" y="178" width="150" height="8" rx="4" fill="url(#lgt-react)" style="animation-delay:.4s;"/>
+    </g>
+    <g class="lg-row" style="animation-delay:.35s;">
+      <text x="30" y="206" fill="#EDEDF2">Firebase</text><text x="810" y="206" text-anchor="end" fill="#7A7A85">13%</text>
+      <rect x="30" y="214" width="750" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
+      <rect class="lg-track" x="30" y="214" width="98" height="8" rx="4" fill="url(#lgt-fb)" style="animation-delay:.52s;"/>
+    </g>
+    <g class="lg-row" style="animation-delay:.45s;">
+      <text x="30" y="242" fill="#EDEDF2">Tailwind CSS</text><text x="810" y="242" text-anchor="end" fill="#7A7A85">8%</text>
+      <rect x="30" y="250" width="750" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
+      <rect class="lg-track" x="30" y="250" width="60" height="8" rx="4" fill="url(#lgt-tw)" style="animation-delay:.64s;"/>
+    </g>
+    <g class="lg-row" style="animation-delay:.55s;">
+      <text x="30" y="278" fill="#EDEDF2">AI APIs / Vite</text><text x="810" y="278" text-anchor="end" fill="#7A7A85">5%</text>
+      <rect x="30" y="286" width="750" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
+      <rect class="lg-track" x="30" y="286" width="38" height="8" rx="4" fill="url(#lgt-next)" style="animation-delay:.76s;"/>
+    </g>
+  </g>
+</svg>
