@@ -1,10 +1,12 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner.svg">
-  <source media="(prefers-color-scheme: light)" srcset="banner.svg">
-  <img dev-asik-banner.svg" alt="Dev Asik animated banner" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="dev-asik-banner.svg">
+  <source media="(prefers-color-scheme: light)" srcset="dev-asik-banner.svg">
+  <img src="dev-asik-banner.svg" alt="Dev Asik animated banner" width="100%">
 </picture>
+
+</div>
 
 <br>
 
