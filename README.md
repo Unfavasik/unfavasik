@@ -1,13 +1,14 @@
 <div align="center">
 
+<!-- ✨ Animated Banner ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dev-asik-banner.svg">
-  <source media="(prefers-color-scheme: light)" srcset="dev-asik-banner.svg">
-  <img src="dev-asik-banner.svg" alt="Dev Asik animated banner" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./dev-asik-banner-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="./dev-asik-banner.svg?v=1">
+  <img src="./dev-asik-banner-dark.svg?v=1" alt="Asik Ikbal — Full Stack Developer" width="100%"/>
 </picture>
 
 </div>
-
+  
 <br>
 
 <img src="asik-lanyard.svg?v=1" alt="Dev Asik ID badge" width="220">
