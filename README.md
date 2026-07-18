@@ -9,10 +9,8 @@
 
 </div>
   
-<br>
-
-<img src="asik-lanyard.svg?v=1" alt="Dev Asik ID badge" width="220">
 <br/>
+
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-dev--asik.vercel.app-00D9FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=050505)](https://dev-asik.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-UnfavAsik-C026FF?style=for-the-badge&logo=github&logoColor=white&labelColor=050505)](https://github.com/UnfavAsik)
@@ -54,6 +52,10 @@ const asikIkbal = {
 ![JavaScript](https://img.shields.io/badge/JavaScript-050505?style=for-the-badge&logo=javascript&logoColor=C026FF)
 ![HTML5](https://img.shields.io/badge/HTML5-050505?style=for-the-badge&logo=html5&logoColor=00D9FF)
 ![CSS3](https://img.shields.io/badge/CSS3-050505?style=for-the-badge&logo=css3&logoColor=C026FF)
+
+<br>
+
+<img src="asik-lanyard.svg?v=1" alt="Dev Asik ID badge" width="280">
 
 **Frameworks & Libraries**
 
