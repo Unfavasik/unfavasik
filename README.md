@@ -74,10 +74,14 @@ const asikIkbal = {
 
 </div>
 
+<div align="center">
+  
 <br>
 
 <img src="asik-lanyard.svg?v=1" alt="Dev Asik ID badge" width="280">
 
+</div>
+</div>
 <br/>
 
 ## 🚀 Featured Projects
