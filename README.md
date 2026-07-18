@@ -18,16 +18,16 @@
 
 ## 🪪 About Me
 
-<img align="right" src="./asik-lanyard.svg" width="270" alt="Dev Asik ID card">
+<img align="right" src="./asik-lanyard.svg" width="250" alt="Dev Asik ID card">
 
 ```ts
 const asikIkbal = {
   location: "Murshidabad, West Bengal, India",
   role: ["Full Stack Developer", "AI Developer", "UI/UX Designer"],
   brand: "Dev Asik",
-  focus: "Building premium, AI-powered web experiences",
-  currentlyLearning: ["Advanced AI Agents", "System Design", "Web3"],
-  funFact: "Hosts a football podcast for the OFC community ⚽",
+  currentlyBuilding: ["dev-asik.vercel.app", "ProblemApp", "AXEL"],
+  currentlyLearning: ["Advanced AI/LLM tooling", "3D motion & generative web design"],
+  philosophy: "Build. Learn. Ship.",
 };
 ```
 
