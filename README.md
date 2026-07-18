@@ -52,9 +52,6 @@ const asikIkbal = {
 ![HTML5](https://img.shields.io/badge/HTML5-050505?style=for-the-badge&logo=html5&logoColor=00D9FF)
 ![CSS3](https://img.shields.io/badge/CSS3-050505?style=for-the-badge&logo=css3&logoColor=C026FF)
 
-<br>
-
-<img src="asik-lanyard.svg?v=1" alt="Dev Asik ID badge" width="280">
 
 **Frameworks & Libraries**
 
@@ -76,6 +73,10 @@ const asikIkbal = {
 ![Node.js](https://img.shields.io/badge/Node.js-050505?style=for-the-badge&logo=nodedotjs&logoColor=C026FF)
 
 </div>
+
+<br>
+
+<img src="asik-lanyard.svg?v=1" alt="Dev Asik ID badge" width="280">
 
 <br/>
 
