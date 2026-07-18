@@ -64,8 +64,8 @@
   <!-- strap -->
   <path d="M 160 -40 Q 190 90 190 150" stroke="url(#strapGrad)" stroke-width="26" fill="none" stroke-linecap="round"/>
   <path d="M 160 -40 Q 190 90 190 150" stroke="#000000" stroke-opacity="0.15" stroke-width="26" fill="none" stroke-linecap="round" stroke-dasharray="1 11"/>
-  <text class="mono" x="190" y="20" text-anchor="middle" fill="#ffffff" font-size="10" font-weight="700" transform="rotate(6 190 20)" opacity="0.85">DEV ASIK</text>
-  <text class="mono" x="190" y="70" text-anchor="middle" fill="#ffffff" font-size="10" font-weight="700" opacity="0.85">DEV ASIK</text>
+  <text class="mono" x="190" y="20" text-anchor="middle" fill="#ffffff" font-size="10" font-weight="700" transform="rotate(6 190 20)" opacity="0.85"></text>
+  <text class="mono" x="190" y="70" text-anchor="middle" fill="#ffffff" font-size="10" font-weight="700" opacity="0.85"></text>
 
   <!-- clasp -->
   <circle cx="190" cy="150" r="10" fill="#cfd3da"/>
