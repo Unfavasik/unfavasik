@@ -140,15 +140,13 @@ const asikIkbal = {
 <br/>
 
 ## 🏆 Achievements
-
 <div align="center">
-<img src="./asik-trophies.svg" width="100%" alt="Dev Asik achievements">
+<img src="./dev-asik.svg" width="100%" alt="Dev Asik achievements">
 </div>
 
 <div align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=UnfavAsik&theme=algolia&no-frame=true&column=4&margin-w=12&margin-h=12&title=Commits,Stars,PullRequest,Repositories" alt="trophies"/>
 </div>
-
 <br/>
 
 ## 🤝 Connect With Me
