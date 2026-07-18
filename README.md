@@ -10,8 +10,7 @@
 <div align="center">
   
 <br/>
-
-
+  
 [![Portfolio](https://img.shields.io/badge/Portfolio-dev--asik.vercel.app-00D9FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=050505)](https://dev-asik.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-UnfavAsik-C026FF?style=for-the-badge&logo=github&logoColor=white&labelColor=050505)](https://github.com/UnfavAsik)
 [![Email](https://img.shields.io/badge/Email-asik.devhub-00D9FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=050505)](mailto:asik.devhub@gmail.com)
