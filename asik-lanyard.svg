@@ -1,104 +1,88 @@
-<svg width="380" height="560" viewBox="0 0 380 560" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Dev Asik swinging ID badge">
-<defs>
-  <clipPath id="avatarClip"><circle cx="0" cy="0" r="46"/></clipPath>
-  <clipPath id="cardClip"><rect x="-100" y="-10" width="200" height="270" rx="20"/></clipPath>
+<svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lanyardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D9FF"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#C026FF"/>
+    </linearGradient>
 
-  <linearGradient id="strapGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#C026FF"/>
-    <stop offset="100%" stop-color="#00D9FF"/>
-  </linearGradient>
-  <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#0d0d14"/>
-    <stop offset="100%" stop-color="#111118"/>
-  </linearGradient>
-  <linearGradient id="shineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-    <stop offset="45%" stop-color="#ffffff" stop-opacity="0.35"/>
-    <stop offset="55%" stop-color="#ffffff" stop-opacity="0.35"/>
-    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-  </linearGradient>
-  <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#00D9FF"/>
-    <stop offset="100%" stop-color="#C026FF"/>
-  </linearGradient>
+    <linearGradient id="holoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(0,217,255,0)"/>
+      <stop offset="40%" stop-color="rgba(0,217,255,0.1)"/>
+      <stop offset="50%" stop-color="rgba(192,38,255,0.3)"/>
+      <stop offset="60%" stop-color="rgba(0,217,255,0.1)"/>
+      <stop offset="100%" stop-color="rgba(192,38,255,0)"/>
+      <animate attributeName="x1" values="0%;200%;0%" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;300%;100%" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
 
-  <filter id="badgeGlow" x="-40%" y="-40%" width="180%" height="180%">
-    <feGaussianBlur stdDeviation="6" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
+    <filter id="lanyardGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-  <style>
-    .mono { font-family:'JetBrains Mono','Fira Code',Consolas,monospace; }
-    .sans { font-family:'Space Grotesk','Segoe UI',Inter,sans-serif; }
+    <clipPath id="avatarClip">
+      <circle cx="200" cy="220" r="55"/>
+    </clipPath>
 
-    @keyframes swing {
-      0% { transform: rotate(-7deg); }
-      50% { transform: rotate(7deg); }
-      100% { transform: rotate(-7deg); }
-    }
-    #rig {
-      transform-origin: 190px 40px;
-      animation: dropIn 1.1s cubic-bezier(.2,1.6,.4,1) 1, swing 4.5s ease-in-out 1.1s infinite;
-    }
-    @keyframes dropIn {
-      0% { transform: translateY(-260px) rotate(0deg); opacity:0; }
-      60% { transform: translateY(10px) rotate(-9deg); opacity:1; }
-      80% { transform: translateY(-4px) rotate(6deg); }
-      100% { transform: translateY(0px) rotate(-7deg); }
-    }
+    <pattern id="barcodePattern" x="0" y="0" width="4" height="30" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="1.5" height="30" fill="#fff"/>
+      <rect x="2.5" y="0" width="0.5" height="30" fill="#fff"/>
+    </pattern>
+  </defs>
 
-    @keyframes shineSweep {
-      0% { transform: translate(-260px,-260px); }
-      60%,100% { transform: translate(260px,260px); }
-    }
-    .shine { animation: shineSweep 3.5s ease-in-out infinite; }
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="-2 200 0; 2 200 0; -2 200 0" dur="4s" repeatCount="indefinite"/>
 
-    @keyframes ringSpin { to { transform: rotate(360deg); } }
-    .ringSpin { transform-origin: 0px 0px; animation: ringSpin 6s linear infinite; }
-  </style>
-</defs>
+    <path d="M 160 0 Q 160 80 180 100 L 220 100 Q 240 80 240 0" fill="none" stroke="url(#lanyardGrad)" stroke-width="12" filter="url(#lanyardGlow)"/>
+    <path d="M 160 0 Q 160 80 180 100 L 220 100 Q 240 80 240 0" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
 
-<rect width="380" height="560" fill="none"/>
+    <rect x="185" y="95" width="30" height="20" rx="4" fill="#444" stroke="#666" stroke-width="1"/>
+    <rect x="190" y="100" width="20" height="10" rx="2" fill="#555"/>
 
-<g id="rig">
-  <!-- strap -->
-  <path d="M 160 -40 Q 190 90 190 150" stroke="url(#strapGrad)" stroke-width="26" fill="none" stroke-linecap="round"/>
-  <path d="M 160 -40 Q 190 90 190 150" stroke="#000000" stroke-opacity="0.15" stroke-width="26" fill="none" stroke-linecap="round" stroke-dasharray="1 11"/>
-  <text class="mono" x="190" y="20" text-anchor="middle" fill="#ffffff" font-size="10" font-weight="700" transform="rotate(6 190 20)" opacity="0.85"></text>
-  <text class="mono" x="190" y="70" text-anchor="middle" fill="#ffffff" font-size="10" font-weight="700" opacity="0.85"></text>
+    <rect x="50" y="115" width="300" height="420" rx="20" fill="rgba(10,10,20,0.95)" stroke="url(#lanyardGrad)" stroke-width="2" filter="url(#lanyardGlow)"/>
+    <rect x="50" y="115" width="300" height="420" rx="20" fill="url(#holoGrad)" opacity="0.6"/>
 
-  <!-- clasp -->
-  <circle cx="190" cy="150" r="10" fill="#cfd3da"/>
-  <circle cx="190" cy="150" r="5" fill="#8a8f99"/>
-  <rect x="184" y="155" width="12" height="16" rx="4" fill="#cfd3da"/>
-  <circle cx="190" cy="176" r="8" fill="none" stroke="#cfd3da" stroke-width="4"/>
+    <rect x="50" y="115" width="300" height="80" rx="20" fill="url(#lanyardGrad)" opacity="0.15"/>
+    <rect x="50" y="155" width="300" height="40" fill="url(#lanyardGrad)" opacity="0.1"/>
 
-  <!-- card -->
-  <g transform="translate(190,258)" filter="url(#badgeGlow)">
-    <rect x="-100" y="-10" width="200" height="270" rx="20" fill="url(#cardGrad)" stroke="#00D9FF" stroke-opacity="0.35"/>
-    <g clip-path="url(#cardClip)">
-      <rect x="-100" y="-10" width="200" height="46" fill="#080809"/>
-      <text class="sans" x="0" y="14" text-anchor="middle" fill="#00D9FF" font-size="13" font-weight="700" letter-spacing="1">DEV ASIK</text>
+    <text x="200" y="155" font-family="sans-serif" font-size="20" font-weight="800" fill="url(#lanyardGrad)" text-anchor="middle" filter="url(#lanyardGlow)">DEV ASIK</text>
+    <text x="200" y="175" font-family="monospace" font-size="10" fill="#888" text-anchor="middle" letter-spacing="4">DEVELOPER ID</text>
 
-      <circle cx="0" cy="80" r="50" fill="url(#ringGrad)" class="ringSpin" style="transform-origin:0px 80px;" opacity="0.9"/>
-      <circle cx="0" cy="80" r="46" fill="#0d0d14"/>
-      <g transform="translate(0,80)" clip-path="url(#avatarClip)">
-        <image href="data:image/jpeg;base64,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" x="-46" y="-46" width="92" height="92" preserveAspectRatio="xMidYMid slice"/>
-      </g>
+    <circle cx="200" cy="260" r="58" fill="none" stroke="url(#lanyardGrad)" stroke-width="3" filter="url(#lanyardGlow)">
+      <animate attributeName="stroke-dasharray" values="0 365; 365 365" dur="2s" begin="0.5s" fill="freeze"/>
+    </circle>
 
-      <text class="sans" x="0" y="150" text-anchor="middle" fill="#f2f2f5" font-size="17" font-weight="700">Asik Ikbal</text>
-      <text class="mono" x="0" y="170" text-anchor="middle" fill="#C026FF" font-size="11">Full Stack • AI • UI/UX</text>
-      <text class="mono" x="0" y="188" text-anchor="middle" fill="#7a7a86" font-size="10.5">@UnfavAsik</text>
+    <circle cx="200" cy="260" r="55" fill="#1a1a2e"/>
+    <text x="200" y="265" font-family="sans-serif" font-size="28" font-weight="700" fill="url(#lanyardGrad)" text-anchor="middle">AI</text>
 
-      <line x1="-80" y1="205" x2="80" y2="205" stroke="#22222b"/>
-      <g transform="translate(-80,214)">
-        <rect x="0.0" y="0" width="2.4" height="26" fill="#d8d8de"/><rect x="3.1" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="6.2" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="9.3" y="0" width="2.4" height="26" fill="#d8d8de"/><rect x="12.4" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="15.5" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="18.6" y="0" width="2.4" height="26" fill="#d8d8de"/><rect x="21.7" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="24.8" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="27.900000000000002" y="0" width="2.4" height="26" fill="#d8d8de"/><rect x="31.0" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="34.1" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="37.2" y="0" width="2.4" height="26" fill="#d8d8de"/><rect x="40.300000000000004" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="43.4" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="46.5" y="0" width="2.4" height="26" fill="#d8d8de"/><rect x="49.6" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="52.7" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="55.800000000000004" y="0" width="2.4" height="26" fill="#d8d8de"/><rect x="58.9" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="62.0" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="65.10000000000001" y="0" width="2.4" height="26" fill="#d8d8de"/><rect x="68.2" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="71.3" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="74.4" y="0" width="2.4" height="26" fill="#d8d8de"/><rect x="77.5" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="80.60000000000001" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="83.7" y="0" width="2.4" height="26" fill="#d8d8de"/><rect x="86.8" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="89.9" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="93.0" y="0" width="2.4" height="26" fill="#d8d8de"/><rect x="96.10000000000001" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="99.2" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="102.3" y="0" width="2.4" height="26" fill="#d8d8de"/><rect x="105.4" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="108.5" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="111.60000000000001" y="0" width="2.4" height="26" fill="#d8d8de"/><rect x="114.7" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="117.8" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="120.9" y="0" width="2.4" height="26" fill="#d8d8de"/><rect x="124.0" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="127.10000000000001" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="130.20000000000002" y="0" width="2.4" height="26" fill="#d8d8de"/><rect x="133.3" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="136.4" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="139.5" y="0" width="2.4" height="26" fill="#d8d8de"/><rect x="142.6" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="145.70000000000002" y="0" width="1.6" height="26" fill="#d8d8de"/><rect x="148.8" y="0" width="2.4" height="26" fill="#d8d8de"/><rect x="151.9" y="0" width="1.6" height="26" fill="#d8d8de"/>
-      </g>
-      <text class="mono" x="0" y="252" text-anchor="middle" fill="#5c5c66" font-size="9" letter-spacing="3">ID • 2026 • MSD-IN</text>
+    <circle cx="250" cy="305" r="8" fill="#00D9FF" filter="url(#lanyardGlow)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
 
-      <rect x="-100" y="-10" width="200" height="270" fill="url(#shineGrad)" class="shine"/>
+    <text x="200" y="355" font-family="sans-serif" font-size="22" font-weight="700" fill="#fff" text-anchor="middle">Asik Ikbal</text>
+    <text x="200" y="380" font-family="monospace" font-size="11" fill="#00D9FF" text-anchor="middle">Full Stack Developer</text>
+
+    <line x1="80" y1="400" x2="320" y2="400" stroke="url(#lanyardGrad)" stroke-width="1" opacity="0.3"/>
+
+    <text x="80" y="430" font-family="monospace" font-size="10" fill="#666">GITHUB</text>
+    <text x="80" y="448" font-family="monospace" font-size="12" fill="#fff">@UnfavAsik</text>
+
+    <text x="80" y="478" font-family="monospace" font-size="10" fill="#666">LOCATION</text>
+    <text x="80" y="496" font-family="monospace" font-size="12" fill="#fff">West Bengal, India</text>
+
+    <g transform="translate(240, 420)">
+      <rect x="0" y="0" width="60" height="30" fill="url(#barcodePattern)" opacity="0.8"/>
+      <rect x="0" y="0" width="60" height="30" fill="none" stroke="#fff" stroke-width="0.5" opacity="0.3"/>
+      <text x="30" y="42" font-family="monospace" font-size="8" fill="#888" text-anchor="middle">8824-0912</text>
     </g>
-    <rect x="-100" y="-10" width="200" height="270" rx="20" fill="none" stroke="#00D9FF" stroke-opacity="0.25"/>
+
+    <path d="M 50 135 L 70 115" stroke="#00D9FF" stroke-width="2" opacity="0.5"/>
+    <path d="M 350 135 L 330 115" stroke="#C026FF" stroke-width="2" opacity="0.5"/>
+    <path d="M 50 515 L 70 535" stroke="#C026FF" stroke-width="2" opacity="0.5"/>
+    <path d="M 350 515 L 330 535" stroke="#00D9FF" stroke-width="2" opacity="0.5"/>
   </g>
-</g>
 </svg>
