@@ -1,11 +1,14 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./asik-banner.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./asik-banner-light.svg">
-  <img alt="Dev Asik banner" src="./asik-banner.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="asik-banner.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="asik-banner-light.svg?v=1">
+  <img src="asik-banner.svg?v=1" alt="Dev Asik animated banner" width="100%">
 </picture>
 
+<br>
+
+<img src="asik-lanyard.svg?v=1" alt="Dev Asik ID badge" width="220">
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-dev--asik.vercel.app-00D9FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=050505)](https://dev-asik.vercel.app)
@@ -17,8 +20,6 @@
 <br/>
 
 ## &#9642; About Me
-
-<img align="right" src="./asik-lanyard.svg" width="250" alt="Dev Asik ID card">
 
 ```ts
 const asikIkbal = {
