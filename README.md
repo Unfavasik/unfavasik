@@ -7,7 +7,7 @@
   <img src="./dev-asik-banner-dark.svg?v=1" alt="Asik Ikbal — Full Stack Developer" width="100%"/>
 </picture>
 
-</div>
+<div align="center">
   
 <br/>
 
