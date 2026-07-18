@@ -16,7 +16,7 @@
 
 <br/>
 
-## 🪪 About Me
+## &#9642; About Me
 
 <img align="right" src="./asik-lanyard.svg" width="250" alt="Dev Asik ID card">
 
