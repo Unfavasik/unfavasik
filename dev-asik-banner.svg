@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 740" width="1280" height="740">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#13132b"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00D9FF"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="740" rx="24" fill="url(#bg)"/>
+
+  <text x="60" y="70" font-size="18" fill="#4ade80"
+        font-family="Consolas,monospace">
+asik@dev-asik:~$ cat README.md
+  </text>
+
+  <text x="60" y="140" font-size="28" fill="#ffffff"
+        font-family="Segoe UI,Arial">
+Hi, I'm 👋
+  </text>
+
+  <text x="60" y="220" font-size="72" font-weight="bold"
+        fill="url(#name)"
+        font-family="Segoe UI,Arial">
+Asik Ikbal
+  </text>
+
+  <text x="60" y="280" font-size="26" fill="#00D9FF"
+        font-family="Consolas,monospace">
+&lt; Full Stack Developer /&gt;
+  </text>
+
+  <text x="60" y="330" font-size="22" fill="#dddddd"
+        font-family="Segoe UI,Arial">
+🚀 React • Next.js • Firebase • Node.js • AI
+  </text>
+
+  <rect x="60" y="380" width="540" height="110" rx="14"
+        fill="#10131f" stroke="#2b6fff"/>
+
+  <text x="85" y="425" font-size="20" fill="#ffffff"
+        font-family="Segoe UI,Arial">
+💙 Building modern web experiences with clean code.
+  </text>
+
+  <text x="85" y="460" font-size="20" fill="#ffffff"
+        font-family="Segoe UI,Arial">
+Learning, Building & Growing Every Day.
+  </text>
+
+  <circle cx="980" cy="310" r="140" fill="#1d4ed8" opacity="0.18"/>
+  <circle cx="1040" cy="360" r="110" fill="#7C3AED" opacity="0.22"/>
+
+  <text x="760" y="610" font-size="22" fill="#ffffff"
+        font-family="Consolas,monospace">
+GitHub: github.com/UnfavAsik
+  </text>
+
+  <text x="760" y="645" font-size="22" fill="#ffffff"
+        font-family="Consolas,monospace">
+Portfolio: dev-asik.vercel.app
+  </text>
+</svg>
