@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="banner.svg">
   <source media="(prefers-color-scheme: light)" srcset="banner.svg">
-  <img src="asik-banner.svg?v=1" alt="Dev Asik animated banner" width="100%">
+  <img dev-asik-banner.svg" alt="Dev Asik animated banner" width="100%">
 </picture>
 
 <br>
