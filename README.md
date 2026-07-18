@@ -16,7 +16,7 @@
 [![Email](https://img.shields.io/badge/Email-asik.devhub-00D9FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=050505)](mailto:asik.devhub@gmail.com)
 
 </div>
-
+</div>
 <br/>
 
 ## &#9642; About Me
